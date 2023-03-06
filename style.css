@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-family: 'Amatic SC', cursive;;
+
+    font-size: 20px;
+    line-height: 1.6;
+    color: #fff;
+    text-align: center;
+    background: url("/waves2.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.img{
+    margin: auto;
+    position: relative;
+    top: auto;
+    left: 0%;
+    right: auto;
+    bottom: 60px;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+}
+
+.main{
+    margin: auto;
+    position: fixed;
+    top: 0%;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    width: 100vw;
+    height: 85px;
+    background-color: black;
+    z-index: -2;
+}
+
+.fira{
+    margin: auto;
+    position: relative;
+    display: flex;
+    top: auto;
+    left: auto;
+    right: 0%;
+    width: 200px;
+    height: 200px;
+}
+
+.firb{
+    margin: 0px;
+    position: relative;
+    display: flex;
+    top: 0%;
+    left: 0px;
+    right: auto;
+    bottom: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+.firc{
+    margin: auto;
+    position: relative;
+    display: flex;
+    top: auto;
+    left: 0px;
+    right: auto;
+    bottom: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+.fira:hover{
+    width: 215px;
+    height: 215px;
+    animation-name: firy;
+    animation-duration: 1s;
+}
+
+@keyframes firy{
+    0%{width: 215px; height:215px;}
+    100%{width: 215px; height:215px;}
+}
+
+.firb:hover{
+    width: 215px;
+    height: 215px;
+    animation-name: firy;
+    animation-duration: 1s;
+}
+
+.firc:hover{
+    width: 215px;
+    height: 215px;
+    animation-name: firy;
+    animation-duration: 1s;
+}
+
+.holder{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+    position: relative;
+
+}
