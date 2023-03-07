@@ -106,9 +106,51 @@ body{
 }
 
 @media (max-width:767px){
-    body{
-        width: 720px;
-        height: 1440px;
+    .fira{
+        width: 150px;
+        height: 150px;
     }
-}
+
+    .fira:hover{
+        width: 165px;
+        height: 165px;
+        animation-name: firmobile;
+        animation-duration: 1s;
+    }
+
+    @keyframes firmobile{
+        0%{width: 165px; height:165px;}
+        100%{width: 165px; height:165px;}
+    }
+    
+    .firb{
+        width: 150px;
+        height: 150px;
+    }
+
+    .firb:hover{
+        width: 165px;
+        height: 165px;
+        animation-name: firmobile;
+        animation-duration: 1s;
+    }
+
+    .firc{
+        width: 150px;
+        height: 150px;
+    }
+
+    .firc:hover{
+        width: 165px;
+        height: 165px;
+        animation-name: firmobile;
+        animation-duration: 1s;
+    }
+
+    .holder{
+        font-size: 15px;
+        width: 100vw;
+    }
+}   
+
 
