@@ -146,3 +146,11 @@ body{
     }
 }
 
+@media (max-width: 767px){
+    body{
+        width: 720px;
+        height: 1280px;
+    }
+}
+
+
